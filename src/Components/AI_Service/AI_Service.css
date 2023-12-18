@@ -1,0 +1,18 @@
+.fa-square {
+  color: #1968f0;
+}
+.font {
+  font-size: 18px;
+}
+.fa-caret-down {
+  color: #ffffff;
+}
+
+/* second section */
+.secongimg{
+    background-image: url("https://www.ombrulla.com/images/home/position-statement.svg");
+    background-size: cover;
+    background-position: center;
+    line-height: 25px
+  
+  }
