@@ -17,7 +17,7 @@ function Blogs() {
               src="https://blog.ombrulla.com/wp-content/uploads/2023/12/Google-io-2023.webp"
               alt=""
             />
-            <p className="text-base md:text-xl md:w-96 font-bold text-gray-900">
+            <p className="mt-10 text-base md:text-xl md:w-96 font-bold text-gray-900">
               Privacy and security with Artificial Intelligence
             </p>
             <p className="text-sm  md:w-96">
@@ -43,7 +43,7 @@ function Blogs() {
               src="https://blog.ombrulla.com/wp-content/uploads/2023/11/Blog-Images.png"
               alt=""
             />
-            <p className="text-base md:text-xl font-bold text-gray-900  md:w-96">
+            <p className="mt-10  text-base md:text-xl font-bold text-gray-900  md:w-96">
               The impact of AI on jobs and the workforce
             </p>
             <p className="text-sm  md:w-96">
@@ -69,7 +69,7 @@ function Blogs() {
               src="https://blog.ombrulla.com/wp-content/uploads/2023/11/AI-on-Process-Optimization-and-Quality-Control.webp"
               alt=""
             />
-            <p className="text-base md:text-xl font-bold text-gray-900  md:w-96">
+            <p className="mt-10  text-base md:text-xl font-bold text-gray-900  md:w-96">
               Use of AI in Process Optimization and Quality Control{" "}
             </p>
             <p className="text-sm  md:w-96">

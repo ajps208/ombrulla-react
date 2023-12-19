@@ -77,7 +77,7 @@ function Header() {
                 </div>
               </div>
               <Link to={'/about'} className="font-bold text-black hover:text-blue-500">About</Link>
-              <Link className="font-bold text-black hover:text-blue-500">Blog</Link>
+              <Link to={'/blog'} className="font-bold text-black hover:text-blue-500">Blog</Link>
               <Link className="font-bold text-black hover:text-blue-500">Contact</Link>
             </div>
             <div className="flex md:hidden">
@@ -105,16 +105,16 @@ function Header() {
               } md:hidden`}
             >
                 <div className="bg-gray-100 px-16 py-10">
-                  <img src="https://www.ombrulla.com/logo.svg" alt="" />
+                  <Link to={'/'}><img src="https://www.ombrulla.com/logo.svg" alt="" /></Link>
                 </div>
                 <div className="">
                   <ul className="mobilenav">
                     <li className="px-4">
-                      <div className="pb-4 pt-3 ps-4 border-b-2">Home</div>
+                      <div className="pb-4 pt-3 ps-4 border-b-2"><Link to={'/'}>Home</Link></div>
                     </li>
                     <li className="px-4">
                       <div className="pb-4 pt-3 ps-4 flex justify-between border-b-2">
-                        Services
+                        <Link>Services</Link>
                         <span className="bg-blue-600 text-center w-8 h-8 rounded-circle text-lg text-white">
                           +
                         </span>
@@ -138,10 +138,13 @@ function Header() {
                         </ul>  */}
                     </li>
                     <li className="px-4">
-                      <div className="pb-4 pt-3 ps-4 border-b-2">Blog</div>
+                      <div className="pb-4 pt-3 ps-4 border-b-2"><Link to={'/about'}>About</Link></div>
                     </li>
                     <li className="px-4">
-                      <div className="px-4 pt-3">Contact</div>
+                      <div className="pb-4 pt-3 ps-4 border-b-2"><Link to={'/blog'}>Blog</Link></div>
+                    </li>
+                    <li className="px-4">
+                      <div className="px-4 pt-3"><Link>Contact</Link></div>
                     </li>
                   </ul>
                 </div>
