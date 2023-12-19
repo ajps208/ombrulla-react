@@ -48,8 +48,8 @@ function Hero() {
                 <img
                   src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
                   alt="ombrulla"
-                  loading="lazy"
-                  className="maskimg w-full h-auto md:absolute md:top-[100px] md:left-[870px]"
+                 
+                  className="maskimg w-20 h-auto md:absolute md:top-[100px] md:left-[870px]"
                 />
               </div>
             </div>

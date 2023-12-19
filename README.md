@@ -5,8 +5,8 @@ Welcome to the documentation for the Ombrulla Clone React App! This project is a
 
 <h2> Getting Started 🚀</h2>
 
-Clone the repository: git clone https://github.com/ajps208/ombrulla-react.git
-Install Dependencies: npm install
+Clone the repository: git clone https://github.com/ajps208/ombrulla-react.git<br/>
+Install Dependencies: npm install<br/>
 Run the Application: npm start
 
 <h2>Pages</h2>
