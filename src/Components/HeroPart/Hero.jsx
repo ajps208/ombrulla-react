@@ -47,7 +47,7 @@ function Hero() {
                 <div className="mt-10 border-2 md:absolute md:top-[50px] md:left-[800px] sliderShape border-blue-600 rounded-full overflow-hidden hidden md:block"></div>
                 <div className="anotherShape mt-10 border-2 md:absolute md:top-[50px] md:left-[1020px] border-white rounded-full overflow-hidden hidden md:block"></div>
                 <img
-              
+                  width={"1200px"}
                   src={ombrulla}
                   alt="ombrulla"
                   className="maskimg  md:absolute md:top-[100px] md:left-[870px]"
