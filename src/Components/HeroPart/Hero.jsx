@@ -50,7 +50,7 @@ function Hero() {
               
                   src={ombrulla}
                   alt="ombrulla"
-                  className="maskimg w-full h-auto md:absolute md:top-[100px] md:left-[870px]"
+                  className="maskimg  md:absolute md:top-[100px] md:left-[870px]"
                 />
               </div>
             </div>
