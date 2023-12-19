@@ -7,7 +7,8 @@ Welcome to the documentation for the Ombrulla Clone React App! This project is a
 
 Clone the repository: git clone https://github.com/ajps208/ombrulla-react.git<br/>
 Install Dependencies: npm install<br/>
-Run the Application: npm start
+Run the Application: npm start<br/>
+Deployed link:https://ombrulla-react-glkj.vercel.app/
 
 <h2>Pages</h2>
 
