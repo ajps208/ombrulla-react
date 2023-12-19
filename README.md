@@ -5,7 +5,7 @@ Welcome to the documentation for the Ombrulla Clone React App! This project is a
 
 <h2> Getting Started 🚀</h2>
 
-Clone the repository: git clone https://github.com/sreekanth666/food-waste-management-system-react
+Clone the repository: git clone https://github.com/ajps208/ombrulla-react.git
 Install Dependencies: npm install
 Run the Application: npm start
 
@@ -28,6 +28,9 @@ The Blogs page showcases various blog posts related to Ombrulla's services, upda
 <h4>Header</h4>
 The Header component contains the navigation menu, logo, and any other header-related elements.
 
+<h4>Main Content</h4>
+Contain all essential information about ombrulla
+    
 <h4>Footer</h4>
 The Footer component includes information such as copyright, links to social media, and other footer-related content.
 
