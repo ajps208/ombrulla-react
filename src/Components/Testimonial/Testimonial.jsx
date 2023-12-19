@@ -14,10 +14,11 @@ function Testimonial() {
         </div>
         <div className="scrollable-cards-container overflow-x-auto">
             <div className="cards flex gap-x-4 overflow-x-auto">
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">Ombrulla demonstrates how AI could quickly extract value from our data and show significant economic benefits. Ombrulla comes highly recommended by us and we look forward to collaborating with them on future initiatives.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -32,10 +33,11 @@ function Testimonial() {
                     </div>
                 </div>
     
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">Ombrulla has exceeded our expectations; they are serious and consistent in their job. Ombrulla and their team of programmers have always been available to us. I would suggest this firm to anyone looking for restaurant data analytics solutions.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -50,10 +52,11 @@ function Testimonial() {
                     </div>
                 </div>
     
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">We would like to express our gratitude for the collaboration on the development of our Business Intelligence & Analytics solutions. Ombrulla and its analytics team performed admirably and we are pleased with the solution provided to us.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -68,10 +71,11 @@ function Testimonial() {
                     </div>
                 </div>
     
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">Ombrulla's AI-based Employee and Visitor Tracking System has significantly enhanced our workplace operations, seamlessly integrating security and productivity. This implementation has made our organization more efficient and effective.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -86,10 +90,11 @@ function Testimonial() {
                     </div>
                 </div>
     
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">We are pleased to express our satisfaction with the collaboration with Ombrulla for the execution of scratch and damage detection in cars. We extend our heartfelt gratitude to Ombrulla for their invaluable support throughout this project.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -104,10 +109,11 @@ function Testimonial() {
                     </div>
                 </div>
     
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">Ombrulla's AI-based Employee and Visitor Tracking System has significantly enhanced our workplace operations, seamlessly integrating security and productivity. This implementation has made our organization more efficient and effective.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -122,10 +128,10 @@ function Testimonial() {
                     </div>
                 </div>
     
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
                             <p className="text-[#82858d] font-normal text-lg">Ombrulla's AI people tracking solution has impressively enhanced our ability to seamlessly monitor and manage foot traffic. The system's accuracy and real-time insights not only streamline operations but also elevate overall security measures.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
@@ -140,10 +146,11 @@ function Testimonial() {
                     </div>
                 </div>
 
-                <div className="max-w-[30rem] flex items-center justify-center">
-                    <div className="card bg-white md:w-[30rem] w-[18rem] rounded-lg">
-                    <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>
+                <div className="max-w-[40rem] flex items-center justify-center">
+                    <div className="card bg-white md:w-[40rem] w-[18rem] rounded-lg">
                         <div className="p-9">
+                        <i class="fa-solid fa-quote-left text-3xl text-indigo-600"></i>
+
                             <p className="text-[#82858d] font-normal text-lg">Ombrulla and Green Palm collaborate on an AI ship inspection project, employing image and video analysis to detect damages and anomalies. We are highly satisfied with the project's outcomes and the benefits it brings.</p>
                         </div>
                         <div className="text-sm bg-slate-300 md:p-9 p-2 rounded-b-lg flex items-center gap-x-6">
