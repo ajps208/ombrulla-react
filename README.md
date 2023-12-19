@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+Ombrulla Clone React App Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introduction
+Welcome to the documentation for the Ombrulla Clone React App! This project is a replica of the Ombrulla website, featuring a homepage with a header, footer, and main content. The main content includes pages for About, Contacts, and Blogs.
 
-## Available Scripts
 
-In the project directory, you can run:
+Getting Started 🚀
+Clone the repository: git clone https://github.com/sreekanth666/food-waste-management-system-react
+Install Dependencies: npm install
+Run the Application: npm start
 
-### `npm start`
+Pages
+Home
+The Home page is the main landing page of the Ombrulla Clone React App. It includes a header, footer, and the main content section.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+About
+The About page provides information about Ombrulla, its mission, and background.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contacts
+The Contacts page contains contact information or a form for users to get in touch with Ombrulla.
 
-### `npm test`
+Blogs
+The Blogs page showcases various blog posts related to Ombrulla's services, updates, or relevant topics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Components
+Header
+The Header component contains the navigation menu, logo, and any other header-related elements.
 
-### `npm run build`
+Footer
+The Footer component includes information such as copyright, links to social media, and other footer-related content.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies Used
+React
+React is used as the main JavaScript library for building the user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tailwind CSS
+Tailwind CSS is used for styling the components and pages in a utility-first manner.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Development
+During development, follow these guidelines:
 
-### `npm run eject`
+Utilize React components for modularity and reusability.
+Apply Tailwind CSS classes for styling.
+Keep the project structure organized and follow best practices.
+Deployment
+To deploy the Ombrulla Clone React App, follow the deployment guidelines of your chosen hosting platform.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Troubleshooting
+If you encounter any issues, refer to the troubleshooting section in the README.md file or check for updates in the project repository.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments
+Give credit to the original Ombrulla website for inspiration and design.

@@ -11,11 +11,13 @@ function Blogs() {
         </h6>
         <h1 className="text-3xl font-bold mt-3">To Read</h1>
         <div className="mx-10 mt-5 border-t-2 md:flex md:flex-row">
+          {/* first */}
           <div className="mt-8">
             <img
               className="rounded-sm md:w-96"
               src="https://blog.ombrulla.com/wp-content/uploads/2023/12/Google-io-2023.webp"
-              alt=""
+              alt="ombrulla"
+              loading="lazy"
             />
             <p className="mt-10 text-base md:text-xl md:w-96 font-bold text-gray-900">
               Privacy and security with Artificial Intelligence
@@ -29,7 +31,8 @@ function Blogs() {
               <img
                 className="w-10 rounded-full"
                 src="https://secure.gravatar.com/avatar/1ed886cb123f0f55aba0afe6ecc7f56c?s=96&d=mm&r=g"
-                alt=""
+                alt="ombrulla"
+                loading="lazy"
               />
               <div className="flex flex-col ms-3 ">
                 <p>Zara Elizabeth</p>
@@ -37,11 +40,13 @@ function Blogs() {
               </div>
             </div>
           </div>
+          {/* second */}
           <div className="mt-8 md:ms-4">
             <img
               className="rounded-sm md:w-96"
               src="https://blog.ombrulla.com/wp-content/uploads/2023/11/Blog-Images.png"
-              alt=""
+              alt="ombrulla"
+              loading="lazy"
             />
             <p className="mt-10  text-base md:text-xl font-bold text-gray-900  md:w-96">
               The impact of AI on jobs and the workforce
@@ -55,7 +60,8 @@ function Blogs() {
               <img
                 className="w-10 rounded-full"
                 src="https://secure.gravatar.com/avatar/1ed886cb123f0f55aba0afe6ecc7f56c?s=96&d=mm&r=g"
-                alt=""
+                alt="ombrulla"
+                loading="lazy"
               />
               <div className="flex flex-col ms-3">
                 <p>Zara Elizabeth</p>
@@ -63,11 +69,13 @@ function Blogs() {
               </div>
             </div>
           </div>
+          {/* thrid */}
           <div className="mt-8 md:ms-4">
             <img
               className="rounded-sm md:w-96"
               src="https://blog.ombrulla.com/wp-content/uploads/2023/11/AI-on-Process-Optimization-and-Quality-Control.webp"
-              alt=""
+              alt="ombrulla"
+              loading="lazy"
             />
             <p className="mt-10  text-base md:text-xl font-bold text-gray-900  md:w-96">
               Use of AI in Process Optimization and Quality Control{" "}
@@ -81,7 +89,8 @@ function Blogs() {
               <img
                 className="w-10 rounded-full"
                 src="https://secure.gravatar.com/avatar/1ed886cb123f0f55aba0afe6ecc7f56c?s=96&d=mm&r=g"
-                alt=""
+                alt="ombrulla"
+                loading="lazy"
               />
               <div className="flex flex-col ms-3">
                 <p>Zara Elizabeth</p>

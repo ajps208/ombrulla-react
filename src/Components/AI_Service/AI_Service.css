@@ -9,10 +9,9 @@
 }
 
 /* second section */
-.secongimg{
-    background-image: url("https://www.ombrulla.com/images/home/position-statement.svg");
-    background-size: cover;
-    background-position: center;
-    line-height: 25px
-  
-  }
+.secongimg {
+  background-image: url("https://www.ombrulla.com/images/home/position-statement.svg");
+  background-size: cover;
+  background-position: center;
+  line-height: 25px;
+}

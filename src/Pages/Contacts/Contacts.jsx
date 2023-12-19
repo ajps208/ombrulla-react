@@ -17,16 +17,16 @@ function Contacts() {
           <div className="bg-slate-200 md:w-[60rem] md:ms-64 rounded-sm flex flex-col mt-14 px-14 py-14">
             <form className="flex flex-col" action="">
               <div className="md:flex">
-                  <input
-                    className="rounded w-full h-14 px-4 md:w-[26rem]"
-                    type="text"
-                    placeholder="Name"
-                  />
-                  <input
-                    className="rounded w-full h-14 mt-6 md:mt-0 px-4 md:ms-5 md:w-[26rem]"
-                    type="text"
-                    placeholder="Email Address"
-                  />
+                <input
+                  className="rounded w-full h-14 px-4 md:w-[26rem]"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  className="rounded w-full h-14 mt-6 md:mt-0 px-4 md:ms-5 md:w-[26rem]"
+                  type="text"
+                  placeholder="Email Address"
+                />
               </div>
               <textarea
                 className="rounded h-20 mt-6 px-4"
@@ -42,8 +42,13 @@ function Contacts() {
           <div className="md:flex md:justify-evenly md:w-[40rem] md:ms-96  border-2 ms-14 mt-10 border-gray-400 rounded-md w-[17rem] px-10 py-5">
             <div className="">
               <div className="flex md:mt-5">
-                <img className="w-10 rounded-full h-10" src="https://www.ombrulla.com/ukFlag.png" alt="" />
-                <h1  className="ms-1 font-bold text-lg">United Kingdom</h1>
+                <img
+                  className="w-10 rounded-full h-10"
+                  src="https://www.ombrulla.com/ukFlag.png"
+                  alt="ombrulla"
+                  loading="lazy"
+                />
+                <h1 className="ms-1 font-bold text-lg">United Kingdom</h1>
               </div>
               <div>
                 <p>53 Denton close</p>
@@ -53,7 +58,12 @@ function Contacts() {
             </div>
             <div className="">
               <div className="flex mt-5 ">
-                <img  className="w-10 rounded-full h-10" src="https://www.ombrulla.com/Germanyflag.png" alt="" />
+                <img
+                  className="w-10 rounded-full h-10"
+                  src="https://www.ombrulla.com/Germanyflag.png"
+                  alt="ombrulla"
+                  loading="lazy"
+                />
                 <h1 className="ms-1 font-bold text-lg">Germany</h1>
               </div>
               <div>
@@ -64,8 +74,13 @@ function Contacts() {
             </div>
             <div>
               <div className="flex mt-5">
-                <img className="w-10 rounded-full h-10" src="https://www.ombrulla.com/flagIndia.png" alt="" />
-                <h1  className="ms-1 font-bold text-lg">India</h1>
+                <img
+                  className="w-10 rounded-full h-10"
+                  src="https://www.ombrulla.com/flagIndia.png"
+                  alt="ombrulla"
+                  loading="lazy"
+                />
+                <h1 className="ms-1 font-bold text-lg">India</h1>
               </div>
               <div>
                 <p>No. 154/20, Royal Space,</p>
@@ -74,13 +89,9 @@ function Contacts() {
               </div>
             </div>
           </div>
-
-
-       
+        </div>
+        <Footer />
       </div>
-      <Footer />
-      </div>
-      
     </>
   );
 }

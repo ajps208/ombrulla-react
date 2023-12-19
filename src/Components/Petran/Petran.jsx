@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import "../../index.css";
 
 function Petran() {
   return (
     <>
-     <div className="w-full flex items-center justify-center md:mt-32 bg-blue-600">
+      <div className="w-full flex items-center justify-center md:mt-32 bg-blue-600">
         <div className="md:flex md:flex-row w-11/12 py-6">
           <div className="flex flex-col mt-10 md:px-16 md:py-20 md:w-7/12">
             <div>
@@ -13,9 +13,7 @@ function Petran() {
                 src="https://www.ombrulla.com/_astro/petran-logo.99970d82_1t8FzR.webp"
                 alt=""
               />
-              <h2
-                className="text-1xl md:text-base font-normal leading-8 tracking-tight text-white"
-              >
+              <h2 className="text-1xl md:text-base font-normal leading-8 tracking-tight text-white">
                 <span className="text-white font-bold">PE</span>rformance -
                 <span className="text-white font-bold">TR</span>acking -
                 <span className="text-white font-bold">AN</span>alytics
@@ -34,32 +32,30 @@ function Petran() {
                   Schedule call
                 </button>
                 <div className="flex items-center">
-                  <button
-                    className="ml-5 w-12 h-12 aspect-w-1 aspect-h-1 border-2 border-white rounded-full"
-                  >
-                    <i
-                      className="fa-solid fa-caret-down fa-rotate-270 text-2xl"
-                    ></i>
+                  <button className="ml-5 w-12 h-12 aspect-w-1 aspect-h-1 border-2 border-white rounded-full">
+                    <i className="fa-solid fa-caret-down fa-rotate-270 text-2xl"></i>
                   </button>
-                  <span className="ms-5 text-lg  text-white hover:text-black font-semibold">Watch Video</span>
+                  <span className="ms-5 text-lg  text-white hover:text-black font-semibold">
+                    Watch Video
+                  </span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* <!-------------------------------------------------- sixth section image --------------------------------------------------> */}
+          {/* <!-------------------------------------------------- image --------------------------------------------------> */}
           <div className="px-14 md:px-0 py-14 mt-10 md:w-5/12">
             <img
               className="rounded md:w-full md:h-full"
               src="	https://www.ombrulla.com/_astro/asset-performance-management-software.82e2a11d_29kMe4.webp"
-              alt=""
+              alt="ombrulla"
+              loading="lazy"
             />
           </div>
         </div>
       </div>
-
     </>
-  )
+  );
 }
 
-export default Petran
+export default Petran;

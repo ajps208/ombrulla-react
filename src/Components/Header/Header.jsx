@@ -6,7 +6,8 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServiceMenuOpen, setIsServiceMenuOpen] = useState(false);
   const [isProductsMenuOpen, setIsProductsMenuOpen] = useState(false);
-
+  
+  // function to open mobile menu
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -21,6 +22,7 @@ function Header() {
                   className="block h-10 px-3 md:h-8 w-auto"
                   src="https://www.ombrulla.com/logo.svg"
                   alt="Ombrulla"
+                  loading="lazy"
                 />
               </Link>
             </div>
@@ -197,7 +199,7 @@ function Header() {
                     </li>
                     <li className="px-4">
                       <div className="px-4 pt-3">
-                        <Link to={'/contact'}>Contact</Link>
+                        <Link to={"/contact"}>Contact</Link>
                       </div>
                     </li>
                   </ul>

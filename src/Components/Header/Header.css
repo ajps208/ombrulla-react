@@ -1,22 +1,20 @@
-.mobilenav{
-  
-    width: 100%;
-    max-width: 360px;
-    background-color: white;
-  
+.mobilenav {
+  width: 100%;
+  max-width: 360px;
+  background-color: white;
 }
-#mobile-menu{
-    animation: fadeIn 0.5s ease-out;
+#mobile-menu {
+  animation: fadeIn 0.5s ease-out;
 }
 .rounded-circle {
-    border-radius: 50%;
-  }
+  border-radius: 50%;
+}
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

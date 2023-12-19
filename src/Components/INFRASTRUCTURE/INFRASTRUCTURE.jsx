@@ -48,17 +48,21 @@ function INFRASTRUCTURE() {
               </button>
               <p className="ms-2">
                 <b>
-                  Read more <sup><i className="fa-solid fa-arrow-up-right-from-square text-blue-600"></i></sup>{" "}
+                  Read more{" "}
+                  <sup>
+                    <i className="fa-solid fa-arrow-up-right-from-square text-blue-600"></i>
+                  </sup>{" "}
                 </b>
               </p>
             </div>
           </div>
-          {/* <!-- Third section image --> */}
+          {/* <!-- image --> */}
           <div className="hidden  md:block  px-14">
             <img
               className="rounded"
               src="https://www.ombrulla.com/_astro/ai-infrastructure-inspection.c8f30cbf_ZEO7he.webp"
-              alt=""
+              alt="ombrulla"
+              loading="lazy"
             />
           </div>
         </div>

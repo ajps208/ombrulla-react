@@ -6,7 +6,7 @@ function Customers() {
     <>
       <div className="mt-8 mb-8 products p-3 md:px-20 flex flex-col items-center gap-x-7 gap-y-7">
         <div className="text-center">
-          <div className="flex md:gap-x-4 gap-x-2 items-center mb-4 mx-auto items-center justify-center">
+          <div className="flex md:gap-x-4 gap-x-2 items-center mb-4 mx-auto justify-center">
             <i  className="fa-solid fa-square fa-2xs me-3 text-blue-600"></i>{" "}
             <p className="text-medium md:font-bold font-normal">OUR CUSTOMERS</p>
             <i
@@ -16,6 +16,7 @@ function Customers() {
           <h3 className="md:text-5xl text-3xl">They Trust Us</h3>
         </div>
         <div className="logos">
+          {/* logos */}
           <div className="logo-scroll">
             <img
               src="https://www.ombrulla.com/best-western.webp"
