@@ -1,4 +1,4 @@
-Ombrulla Clone React App Documentation
+<h1>Ombrulla Clone React App Documentation</h1>
 
 Introduction
 Welcome to the documentation for the Ombrulla Clone React App! This project is a replica of the Ombrulla website, featuring a homepage with a header, footer, and main content. The main content includes pages for About, Contacts, and Blogs.
