@@ -47,8 +47,13 @@ function Hero() {
                 <div className="anotherShape mt-10 border-2 md:absolute md:top-[50px] md:left-[1020px] border-white rounded-full overflow-hidden hidden md:block"></div>
                 <img
                   src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
-                  alt="ombrulla"
-                  className="maskimg w-full h-auto md:absolute md:top-[100px] md:left-[670px]"
+                  alt="Your Image"
+                  className="w-full h-auto xl:absolute xl:top-[100px] xl:left-[870px]"
+                  style={{
+                    mask: 'url("https://www.ombrulla.com/images/home/mask-banner.png") center / contain no-repeat',
+                    width: "450px",
+                    height: "450px",
+                  }}
                 />
               </div>
             </div>
