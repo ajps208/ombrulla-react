@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isServiceMenuOpen, setIsServiceMenuOpen] = useState(false);
+  const [isProductsMenuOpen, setIsProductsMenuOpen] = useState(false);
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -14,7 +16,7 @@ function Header() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex md:px-24 md:py-12 h-16 items-center justify-between">
             <div className="flex items-center">
-             <Link to="/">
+              <Link to="/">
                 <img
                   className="block h-10 px-3 md:h-8 w-auto"
                   src="https://www.ombrulla.com/logo.svg"
@@ -23,11 +25,17 @@ function Header() {
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-4">
-              <Link to="" className="font-bold text-primary hover:text-blue-500">
+              <Link
+                to="/"
+                className="font-bold text-primary hover:text-blue-500"
+              >
                 Home
               </Link>
               <div className="group relative">
-                <Link to="" className="font-bold text-black hover:text-blue-500">
+                <Link
+                  to=""
+                  className="font-bold text-black hover:text-blue-500"
+                >
                   <span>
                     Services <i className="fa-solid fa-angle-down"></i>
                   </span>
@@ -76,9 +84,24 @@ function Header() {
                   </ul>
                 </div>
               </div>
-              <Link to={'/about'} className="font-bold text-black hover:text-blue-500">About</Link>
-              <Link to={'/blog'} className="font-bold text-black hover:text-blue-500">Blog</Link>
-              <Link className="font-bold text-black hover:text-blue-500">Contact</Link>
+              <Link
+                to={"/about"}
+                className="font-bold text-black hover:text-blue-500"
+              >
+                About
+              </Link>
+              <Link
+                to={"/blog"}
+                className="font-bold text-black hover:text-blue-500"
+              >
+                Blog
+              </Link>
+              <Link
+                to={"/contact"}
+                className="font-bold text-black hover:text-blue-500"
+              >
+                Contact
+              </Link>
             </div>
             <div className="flex md:hidden">
               {/* <!-- menu button --> */}
@@ -98,53 +121,84 @@ function Header() {
               </button>
               {/* <!-- mobile menu --> */}
               <div
-        
-              id="mobile-menu"
-              className={`fixed z-10 left-0 top-0 w-[70%] h-full bg-white ${
-                isMobileMenuOpen ? '' : 'hidden'
-              } md:hidden`}
-            >
+                id="mobile-menu"
+                className={`fixed z-10 left-0 top-0 w-[70%] h-full bg-white ${
+                  isMobileMenuOpen ? "" : "hidden"
+                } md:hidden`}
+              >
                 <div className="bg-gray-100 px-16 py-10">
-                  <Link to={'/'}><img src="https://www.ombrulla.com/logo.svg" alt="" /></Link>
+                  <Link to={"/"}>
+                    <img src="https://www.ombrulla.com/logo.svg" alt="" />
+                  </Link>
                 </div>
                 <div className="">
                   <ul className="mobilenav">
                     <li className="px-4">
-                      <div className="pb-4 pt-3 ps-4 border-b-2"><Link to={'/'}>Home</Link></div>
+                      <div className="pb-4 pt-3 ps-4 border-b-2">
+                        <Link to={"/"}>Home</Link>
+                      </div>
                     </li>
                     <li className="px-4">
                       <div className="pb-4 pt-3 ps-4 flex justify-between border-b-2">
                         <Link>Services</Link>
-                        <span className="bg-blue-600 text-center w-8 h-8 rounded-circle text-lg text-white">
+                        <button
+                          onClick={() =>
+                            setIsServiceMenuOpen(!isServiceMenuOpen)
+                          }
+                          className="bg-blue-600 text-center w-8 h-8 rounded-circle text-lg text-white"
+                        >
                           +
-                        </span>
+                        </button>
                       </div>
-                      {/* <ul style="padding-left: 1rem;">
-                          <li className="pb-4 border-b-2">AI Visual Inspection</li>
-                          <li className="pb-4 border-b-2">AI Infrastructure Inspection</li>
-                          <li className="pb-4 border-b-2">AI People Tracking</li>
+                      {isServiceMenuOpen && (
+                        <ul style={{ paddingLeft: "1rem" }}>
+                          <li className="pb-4 border-b-2">
+                            AI Visual Inspection
+                          </li>
+                          <li className="pb-4 border-b-2">
+                            AI Infrastructure Inspection
+                          </li>
+                          <li className="pb-4 border-b-2">
+                            AI People Tracking
+                          </li>
                           <li className="pb-4 border-b-2">AI Data Analytics</li>
-                        </ul> */}
+                        </ul>
+                      )}
                     </li>
                     <li className="px-4">
                       <div className="pb-4 pt-3 ps-4 flex justify-between border-b-2">
                         Products
-                        <span className="bg-blue-600 text-center w-8 h-8 rounded-circle text-lg text-white">
+                        <button
+                          onClick={() =>
+                            setIsProductsMenuOpen(!isProductsMenuOpen)
+                          }
+                          className="bg-blue-600 text-center w-8 h-8 rounded-circle text-lg text-white"
+                        >
                           +
-                        </span>
+                        </button>
                       </div>
-                      {/* <ul style="padding-left: 1rem;">
-                          <li className="pb-4 border-b-2">Asset Performance Management</li>
-                        </ul>  */}
+                      {isProductsMenuOpen && (
+                        <ul style={{ paddingLeft: "1rem;" }}>
+                          <li className="pb-4 border-b-2">
+                            Asset Performance Management
+                          </li>
+                        </ul>
+                      )}
                     </li>
                     <li className="px-4">
-                      <div className="pb-4 pt-3 ps-4 border-b-2"><Link to={'/about'}>About</Link></div>
+                      <div className="pb-4 pt-3 ps-4 border-b-2">
+                        <Link to={"/about"}>About</Link>
+                      </div>
                     </li>
                     <li className="px-4">
-                      <div className="pb-4 pt-3 ps-4 border-b-2"><Link to={'/blog'}>Blog</Link></div>
+                      <div className="pb-4 pt-3 ps-4 border-b-2">
+                        <Link to={"/blog"}>Blog</Link>
+                      </div>
                     </li>
                     <li className="px-4">
-                      <div className="px-4 pt-3"><Link>Contact</Link></div>
+                      <div className="px-4 pt-3">
+                        <Link to={'/contact'}>Contact</Link>
+                      </div>
                     </li>
                   </ul>
                 </div>

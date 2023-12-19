@@ -2,6 +2,7 @@ import React from "react";
 import "../HomePage/HomePage.css";
 
 import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 
 function About() {
   return (
@@ -61,7 +62,8 @@ function About() {
             </div>
           </div>
         </div>
-       
+
+        <Footer />
       </div>
     </>
   );
