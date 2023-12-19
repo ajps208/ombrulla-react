@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import ombrulla from '../../Assets/ombrulla.webp'
 
 function Hero() {
   return (
@@ -47,9 +48,9 @@ function Hero() {
                 <div className="anotherShape mt-10 border-2 md:absolute md:top-[50px] md:left-[1020px] border-white rounded-full overflow-hidden hidden md:block"></div>
                 <img
               
-                  src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
+                  src={ombrulla}
                   alt="ombrulla"
-                  className="maskimg w-full  h-auto md:absolute md:top-[100px] md:left-[870px]"
+                  className="maskimg w-full h-auto md:absolute md:top-[100px] md:left-[870px]"
                 />
               </div>
             </div>
